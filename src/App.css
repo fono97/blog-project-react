@@ -66,11 +66,16 @@ header {
   text-transform: capitalize;
 }
 /*end of my header section*/
-/*start of my main section*/
 main {
   grid-area: main;
   background-color: orange;
 }
+
+.post{
+    
+}
+/*start of my main section*/
+
 
 /* end of my main section*/
 
