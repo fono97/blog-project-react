@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from "./blog"
+import Site from "./components/blog"
+
 
 function App() {
   return (
     <div className="App">
-    <Header/>
+    <Site/>
     </div>
   );
 }

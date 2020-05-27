@@ -8,7 +8,7 @@ body {
 p {
   font-size: 15px;
 }
-.blog {
+/* .blog {
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
   grid-template-rows: 100px auto auto;
@@ -16,7 +16,7 @@ p {
     "header header header header"
     "main main main sidebar"
     "footer footer footer footer";
-}
+} */
 /*start of my header section*/
 header {
   grid-area: header;
@@ -69,10 +69,6 @@ header {
 main {
   grid-area: main;
   background-color: orange;
-}
-
-.post{
-    
 }
 /*start of my main section*/
 
