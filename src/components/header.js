@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "@emotion/styled";
-import Container from "./container";
+import ContainerHeader from "./container";
 
 
 
@@ -12,17 +12,7 @@ const Header = (props) => {
     `;
     return (
       <HeaderStyle>
-        <Container>
-          <nav className="navbar">
-            <ul>
-              <li>home</li>
-              <li>about</li>
-              <li>projects</li>
-              <li>sign in</li>
-              <li>sign up</li>
-            </ul>
-          </nav>
-        </Container>
+        <ContainerHeader/>
       </HeaderStyle>
     );
 }

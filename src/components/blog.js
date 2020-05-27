@@ -13,7 +13,7 @@ const Site = (props) => {
       "header header header header"
       "main main main sidebar"
       "footer footer footer footer";
-  `
+  `;
   return (
     <Blog>
       <Header/>
@@ -39,7 +39,7 @@ const Site = (props) => {
       <footer>
         <p>this is my footer</p>
       </footer>
-    </Blog>
+     </Blog>
   );
 };
 export default Site;

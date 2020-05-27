@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "@emotion/styled";
 import LogoNav from "./logonav";
+import NavBar from "./NavBar"
 
 
-const Container = (props) => {
+const ContainerHeader = (props) => {
     const HeaderTitle = styled.div`
       display: flex;
       justify-content: space-between;
@@ -14,24 +15,8 @@ const Container = (props) => {
     return (
           <HeaderTitle>
             <LogoNav/>
-          <nav className="navbar">
-            <ul>
-              <li>home</li>
-              <li>about</li>
-              <li>projects</li>
-              <li>sign in</li>
-              <li>sign up</li>
-            </ul>
-          </nav>
+            <NavBar/>
         </HeaderTitle>
       );
 }
- 
-export default Container ;
-
-  // <div className="logo-nav">
-  //   <div className="logo">
-  //     <img src="./images/logo.png" alt="computer-science-logo" />
-  //   </div>
-  //   <p className="title-blog">web development projects</p>
-  // </div>;
+export default ContainerHeader ;

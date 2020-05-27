@@ -28,7 +28,7 @@ const LogoNav = (Props) => {
         <Logo>
           <Img src="./images/logo.png" alt="computer-science-logo" />
         </Logo>
-        <LogoTitle>web development projects</LogoTitle>
+        <LogoTitle> best webDev  projects</LogoTitle>
       </LogoHeader>
     );
 }
