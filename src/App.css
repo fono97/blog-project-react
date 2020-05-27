@@ -1,13 +1,13 @@
-* {
-  margin: 0px;
-  padding: 0px;
+/* * {
+  margin: 0;
+  padding: 0;
 }
-body {
-  background-color: #f2f2f2;
+p{
+    font-size:15px;
 }
-p {
-  font-size: 15px;
-}
+body{
+    background-color:#f2f2f2;
+} */
 /* .blog {
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
@@ -18,19 +18,19 @@ p {
     "footer footer footer footer";
 } */
 /*start of my header section*/
-header {
+/* header {
   grid-area: header;
   width: 100vw;
   background-color: green;
-}
+} */
 
-.header-title {
+/* .header-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 5%;
   height: 100%;
-}
+} */
 .logo-nav {
   display: flex;
   justify-content: center;
