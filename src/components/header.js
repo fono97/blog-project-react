@@ -1,22 +1,18 @@
 import React from "react"
 import styled from "@emotion/styled";
+import Container from "./container";
+
 
 
 const Header = (props) => {
     const HeaderStyle = styled.header`
-        grid-area: header;
-        width: 100vw;
-        background-color: green;
-    `
+      grid-area: header;
+      width: 100vw;
+      background-color: green;
+    `;
     return (
       <HeaderStyle>
-        <div className="header-title">
-          <div className="logo-nav">
-            <div className="logo">
-              <img src="./images/logo.png" alt="computer-science-logo" />
-            </div>
-            <p className="title-blog">web development projects</p>
-          </div>
+        <Container>
           <nav className="navbar">
             <ul>
               <li>home</li>
@@ -26,7 +22,7 @@ const Header = (props) => {
               <li>sign up</li>
             </ul>
           </nav>
-        </div>
+        </Container>
       </HeaderStyle>
     );
 }

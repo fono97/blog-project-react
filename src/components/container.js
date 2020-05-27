@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "@emotion/styled";
+import LogoNav from "./logonav";
 
 
 const Container = (props) => {
-    
     const HeaderTitle = styled.div`
       display: flex;
       justify-content: space-between;
@@ -13,12 +13,7 @@ const Container = (props) => {
     `;
     return (
           <HeaderTitle>
-          <div className="logo-nav">
-            <div className="logo">
-              <img src="./images/logo.png" alt="computer-science-logo" />
-            </div>
-            <p className="title-blog">web development projects</p>
-          </div>
+            <LogoNav/>
           <nav className="navbar">
             <ul>
               <li>home</li>
@@ -33,3 +28,10 @@ const Container = (props) => {
 }
  
 export default Container ;
+
+  // <div className="logo-nav">
+  //   <div className="logo">
+  //     <img src="./images/logo.png" alt="computer-science-logo" />
+  //   </div>
+  //   <p className="title-blog">web development projects</p>
+  // </div>;

@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "@emotion/styled";
 import Header from "./header";
-import Container from "./container"
+// import Container from "./container"
+
 
 const Site = (props) => {
   const Blog = styled.div`
@@ -15,25 +16,7 @@ const Site = (props) => {
   `
   return (
     <Blog>
-      <Header>
-        <Container>
-          <div className="logo-nav">
-            <div className="logo">
-              <img src="./images/logo.png" alt="computer-science-logo" />
-            </div>
-            <p className="title-blog">web development projects</p>
-          </div>
-          <nav className="navbar">
-            <ul>
-              <li>home</li>
-              <li>about</li>
-              <li>projects</li>
-              <li>sign in</li>
-              <li>sign up</li>
-            </ul>
-          </nav>
-        </Container>
-      </Header>
+      <Header/>
       <main>
         <section>
           <h2>These are all projects</h2>
@@ -50,11 +33,9 @@ const Site = (props) => {
           </div>
         </section>
       </main>
-
       <aside>
         <p>he</p>
       </aside>
-
       <footer>
         <p>this is my footer</p>
       </footer>
