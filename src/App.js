@@ -7,7 +7,7 @@ import Site from "./components/blog"
 function App() {
   return (
     <div className="App">
-      <Site />
+    <Site/>
     </div>
   );
 }
