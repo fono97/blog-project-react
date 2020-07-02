@@ -8,7 +8,8 @@ const Header = (props) => {
     const HeaderStyle = styled.header`
       grid-area: header;
       width: 100vw;
-      background-color: green;
+      background-color: #171718;
+      background: linear-gradient(120deg, #062b41, #052131);
     `;
     return (
       <HeaderStyle>

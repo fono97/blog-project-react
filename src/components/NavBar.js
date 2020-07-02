@@ -17,7 +17,7 @@ const NavBar = (props) => {
     text-transform: capitalize;
   `;
   return (
-    <Navlist>
+    <NavList>
       <Ul>
         <List>home</List>
         <List>about</List>
@@ -25,7 +25,7 @@ const NavBar = (props) => {
         <List>sign in</List>
         <List>sign up</List>
       </Ul>
-    </Navlist>
+    </NavList>
   );
 };
 
